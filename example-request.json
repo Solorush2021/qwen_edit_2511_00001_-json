@@ -1,0 +1,53 @@
+{
+  "input": {
+    "workflow": {
+      "9": {
+        "inputs": {
+          "filename_prefix": "Qwen_Edit_2511",
+          "images": [
+            "170",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      },
+      "41": {
+        "inputs": {
+          "image": "brekkie.jpg"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "83": {
+        "inputs": {
+          "image": "texture_fur.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "170": {
+        "inputs": {
+          "image": [
+            "41",
+            0
+          ],
+          "image2": [
+            "83",
+            0
+          ]
+        },
+        "class_type": "cdb2cf24-c432-439b-b5c8-5f69838580c9",
+        "_meta": {
+          "title": "cdb2cf24-c432-439b-b5c8-5f69838580c9"
+        }
+      }
+    }
+  }
+}
